@@ -1,0 +1,28 @@
+.login{
+    height: 100vh;
+    margin: 0 !important;
+    &__right{
+        padding: 3rem !important;
+        background-color: $bordure_champ;
+        &__frame{
+        text-align: center;
+        }
+    }
+    &__left{
+        margin-top: 10rem;
+        padding: 0 5rem !important;
+        &__title{
+            text-align: left;
+           &__text{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 31px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            color: #11142D;
+        }
+        }
+       
+    }
+}
