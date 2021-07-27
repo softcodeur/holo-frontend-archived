@@ -3,20 +3,21 @@ import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './pages/login/login.component';
-import { PasswordModule } from "primeng/password";
-import { DividerModule } from "primeng/divider";
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { PasswordModule } from 'primeng-lts';
 @NgModule({
-  declarations: [LoginComponent],
+  declarations: [
+    LoginComponent
+  ],
   imports: [
-    BrowserModule,
     CommonModule,
-    LoginRoutingModule,
+    BrowserModule,
     BrowserAnimationsModule,
     PasswordModule,
-    DividerModule,
     FormsModule
-  ]
+    ], 
+  providers:[]
+
 })
 export class LoginModule { }
