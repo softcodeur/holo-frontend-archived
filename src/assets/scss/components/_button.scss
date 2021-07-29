@@ -1,9 +1,7 @@
 //Button
 .btn {
-    display: block;
-    color: $red;
     border-color: transparent;
-  
+    border-radius: 7px;
     &:disabled, 
     &.disabled {  
       pointer-events: none;
@@ -11,6 +9,4 @@
   }
   
   //Alternate Button
-  .btn.alt {
-    color: $blue;
-  }
+ 
